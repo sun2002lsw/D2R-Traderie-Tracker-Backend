@@ -1,4 +1,4 @@
 from mangum import Mangum
 from app import app
 
-handler = Mangum(app, lifespan="off")
+lambda_handler = Mangum(app, lifespan="off")
