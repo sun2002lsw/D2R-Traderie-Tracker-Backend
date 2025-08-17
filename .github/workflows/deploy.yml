@@ -31,7 +31,7 @@ jobs:
         mkdir -p package
         pip install -r requirements.txt -t package/
         cp app.py package/
-        cp lambda_handler.py package/
+        cp lambda_function.py package/
         cd package
         zip -r ../deployment-package.zip .
 
